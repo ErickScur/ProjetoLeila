@@ -13,11 +13,46 @@
     padding: 250px 0 200px;
 }
 
-.banner h1 {
+.banner,
+.banner2 h1 {
     color: white;
 }
+
+.banner h1 {
+    text-shadow: 2px 2px black;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.banner2 h1 {}
 
 .container-fluid {
     margin: 0;
     padding: 0;
+}
+
+.banner2 {
+    position: relative;
+    background-color: #faa763;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+.botao {
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #ff8e31;
+    color: white;
+    border: 0px;
 }
