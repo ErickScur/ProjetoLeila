@@ -1,32 +1,20 @@
 body {
     background: #faa763;
+    background-image: linear-gradient(#faa763, #ff8e31);
 }
 
-div.well {
-    height: 250px;
+body,
+html {
+    height: 100%;
 }
 
-.Absolute-Center {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+h1 {
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
 }
 
-.Absolute-Center.is-Responsive {
-    width: 50%;
-    height: 50%;
-    min-width: 200px;
-    max-width: 400px;
-    padding: 40px;
-}
-
-#logo-container {
-    margin: auto;
-    margin-bottom: 10px;
-    width: 200px;
-    height: 30px;
-    background-image: url('http://placehold.it/200x30/000000/ffffff/&text=BRAND+LOGO');
+a {
+    text-decoration: none;
+    color: white;
 }

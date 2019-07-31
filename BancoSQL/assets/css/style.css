@@ -6,10 +6,12 @@
 
 .banner {
     position: relative;
-    background: url('../img/index/banner2.jpg');
+    background: url('../img/index/banner22.jpg');
     min-height: 100vh;
-    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 250px 0 200px;
 }
 
@@ -23,8 +25,6 @@
     font-size: 3em;
     font-weight: 800;
 }
-
-.banner2 h1 {}
 
 .container-fluid {
     margin: 0;
