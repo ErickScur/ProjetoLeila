@@ -4,6 +4,10 @@
     font-size: 2em;
 }
 
+.active {
+    background-color: #ff8e31;
+}
+
 .banner {
     position: relative;
     background: url('../img/index/banner22.jpg');
