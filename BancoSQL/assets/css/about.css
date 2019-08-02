@@ -1,0 +1,77 @@
+.navbar-brand {
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.active {
+    background-color: #ff8e31;
+}
+
+.banner {
+    position: relative;
+    background: url('../img/about.JPG');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 200px;
+    min-height: 100vh;
+    background-position-y: 74px;
+    
+}
+h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 800;
+    text-shadow: 2px 2px black;
+
+}
+p{
+    color: white;
+    font-size: 1.6em;
+    font-weight: 800;
+    text-shadow: 1px 1px black;
+
+}
+.banner,
+.banner2 h1 {
+    color: white;
+}
+
+.banner h1 {
+    text-shadow: 2px 2px black;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.banner2 {
+    position: relative;
+    background-color: #faa763;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0 200px;
+}
+
+.botao {
+    font-size: 1.8em;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: #ff8e31;
+    color: white;
+    border: 0px;
+}
