@@ -30,8 +30,8 @@
 
 
       
-        $sql = "UPDATE usuarios SET nome = '$nome', email = '$email', saldo='$saldo', cpf = '$cpf',
-        endereco = '$endereco' WHERE id = '$id'  ";
+        $sql = "UPDATE usuarios SET nome = '$nome', email = '$email', saldo='$saldo',
+        cpf = '$cpf',endereco = '$endereco' WHERE id = '$id'  ";
         $pdo->query($sql);
 
         header("Location: admin.php");
